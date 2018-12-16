@@ -12,32 +12,31 @@
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container" id="inicio">
 			<div class="splash">
 				<!--<img src="res/hipnoedu.splash.png" alt="Fotografia de uma moça sobre as rochas com um mar de fundo"/>-->
-				<div class="msg">reeduque sua mente e assuma <br/> o comando da sua vida</div>
-				<div class="btn">começe agora</div>
+				<div class="msg">reeduque sua mente e assuma <br/> o controle da sua vida</div>
+				<div class="btn"><a href="#contato">começe agora</a></div>
 			</div>
-			<div class="about">
+			<div class="about" id="sobre">
 				<div class="bubble">
-					hipnose para reeducar sua mente
+					hipnoterapia para reeducar sua mente
 				</div>
 				<div class="details">
-					A hipnoedu é especialista em hipnoterapia avançada e em educação para transformar a vida das pessoas, colocando-as como protagonistas de suas vidas, por meio do conhecimento do eu. Para este trabalho, é utilizado uma terapia inovadora que busca focar apenas nas causas do problema, reprogramando a mente subconsciente que armazena as informações das emoções causadoras dos sintomas do problema.
-				</div>
+					O hipnoedu é especialista em hipnoterapia avançada e em reeducação da mente para transformar a vida das pessoas, colocando-as como protagonistas de suas vidas, por meio do conhecimento do eu. Para este trabalho, é utilizado uma terapia inovadora que busca focar apenas nas causas emocionais do problema, ressignificando a mente subconsciente que armazena as informações das emoções causadoras dos sintomas do problema.				</div>
 			</div>
-			<div class="how-it-works">
+			<div class="how-it-works" id="como">
+				<div class="question">
+					O que é hipnoterapia?
+				</div>
+				<div class="answer">
+					A hipnose é uma ferramenta terapêutica profissional e reconhecida que amplia o contato do ser humano com o seu subconsciente, e ajuda a encontrar e solucionar o raíz do problema.
+				</div>
 				<div class="question">
 					Como funciona?
 				</div>
 				<div class="answer">
-					A hipnose é uma ferramenta terapêutica profissional e reconhecida que amplia o contato do ser humano com o seu subconsciente, e ajuda a encontrar e solucionar o raiz do problema.
-				</div>
-				<div class="question">
-					O que é hipnose?
-				</div>
-				<div class="answer">
-					A hipnose é uma ferramenta terapêutica profissional e reconhecida que amplia o contato do ser humano com o seu subconsciente, e ajuda a encontrar e solucionar o raiz do problema.
+					...
 				</div>
 				<div class="question">
 					A hipnose funciona mesmo?
@@ -60,7 +59,7 @@
 			</div>
 			<div class="challenges">
 				<div class="title">
-					encontramos e tratamos a raiz da dificuldade
+					encontramos e tratamos a raíz da dificuldade
 				</div>
 				<div class="list">
 					<div class="elem"> Foco </div>
@@ -84,7 +83,7 @@
 					Entre muitas outras dificuldades a desenvolver
 				</div>
 				<div class="btn yellow">
-					quero me desenvolver
+					<a href="#contato">quero me desenvolver</a>
 				</div>
 			</div>
 			<div class="testimony">
@@ -112,17 +111,146 @@
 						</div>
 					</div>
 				</div>
+				<div class="div btn yellow" id="see-more" onclick="toggle_testimonies()">veja mais</div>
+				<div class="list extra" id="extra-testimonies">
+						<div class="block">
+							<div class="text">Minha vida pessoal e profissional foi transformada para o sucesso, <br/> hoje eu tenho controle da minha vida.</div>
+							<div class="footer">
+								<div class="author">Fernando Sedeug</div>
+								<div class="target">Sucesso pessoal e profissional</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Superei minha <br/> ansiedade e preocupação, agora confio em mim, sei me expor e sei que mereço ser criativo. </div>
+							<div class="footer">
+								<div class="author">Felipe Almeida</div>
+								<div class="target">Criatividade e autoconfiança</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Desbloqueei minha <br/> carreira para o que me <br/> impedia de ser criativo <br/> e de ter mais foco e concentração.</div>
+							<div class="footer">
+								<div class="author">Thiago Erjo </div>
+								<div class="target">Criatividade, foco e concentração</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Superei minha <br/> tristeza e depressão, conquistei o autocontrole da minha vida com felicidade e liberdade.</div>
+							<div class="footer">
+								<div class="author">Carmo Selestial</div>
+								<div class="target">Autocontrole, felicidade e liberdade</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Conquistei a trans-<br/>formação da minha vida para a educação, aprendizado e autoconhecimento.</div>
+							<div class="footer">
+								<div class="author">Fernando Peacelove</div>
+								<div class="target">Educação, aprendizado e autoconhecimento</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Obtive foco, con-<br/>centração e determinação para o aprendizado e sucesso nos negócios e na vida pessoal.</div>
+							<div class="footer">
+								<div class="author">Pieter Albertini</div>
+								<div class="target">Foco, concentração e determinação</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Encontrei e superei <br/> o que me impedia para ter sucesso pessoal, nos negócios e nas finanças.</div>
+							<div class="footer">
+								<div class="author">Robson Pereira</div>
+								<div class="target">Sucesso pessoal e nos negócios</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Hoje tenho controle <br/> da minha vida, me vejo <br/> linda e com sucesso profissional com liberdade e felicidade.</div>
+							<div class="footer">
+								<div class="author">Barbara Silvestre</div>
+								<div class="target">Sucesso profissional, liberdade e felicidad</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Passei a ter mais <br/> foco e concentração que me levou a passar no <br/> vestibular e ter boa notas na faculdade.</div>
+							<div class="footer">
+								<div class="author">Vitoria Takai</div>
+								<div class="target">Foco e concentração</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="text">Consegui um corpo <br/> saudável e dentro do meu peso ideal sem sacrifício alimentar e excesso de exercícios.</div>
+							<div class="footer">
+								<div class="author">Sandra Mador</div>
+								<div class="target">Sucesso pessoal, corpo saudável</div>
+							</div>
+						</div>
+					</div>
 			</div>
-			<div class="medias">
-				<div class="title">
-					temos destaques na principais mídias:
-				</div>
+			<div class="staff">
+				<div class="title">profissionais especializados</div>
 				<div class="list">
-					<img src="res/midia.2.png" alt="Logo da folha de são paulo"/>
-					<img src="res/midia.1.png" alt="Logo da istoé"/>
-					<img src="res/midia.3.png" alt="Logo da super intersssante"/>
-					<img src="res/midia.4.png" alt="Logo do catraca livre"/>
+					<div class="profile">
+						<div class="picture">
+							<img src="res/hipnoedu.lucy.png" alt="Imagem da profissional Lucy Mari"/>
+						</div>
+						<div class="name">Lucy Mari</div>
+						<div class="description">Hipnoterapeuta formada pela OMNI Brasil e Educadora formada pela USP.</div>
+						<div class="social">
+							<div class="face"><a href="https://www.facebook.com/lucymaricriativo" target="_blank"><img src="res/iconmonstr.facebook.svg" alt="logo do Facebook"></a></div>
+							<div class="insta"><a href="https://www.instagram.com/lucymaricriativo" target="_blank"><img src="res/iconmonstr.instagram.svg" alt="logo do Instagram"></a></div>
+							<div class="in"><a href="https://www.linkedin.com/in/lucymari" target="_blank"><img src="res/iconmonstr.linkedin.svg" alt="logo do linkedin"></a></div>
+						</div>
+					</div>
+					<div class="profile">
+						<div class="picture">
+							<img src="res/hipnoedu.rafael.png" alt="Imagem do profissional Rafael Segato"/>
+						</div>
+						<div class="name">Rafael Segato</div>
+						<div class="description">Hipnoterapeuta formada pela OMNI Brasil.</div>
+						<div class="social">
+							<div class="face"><a href="https://www.facebook.com/rafael.segatosouza.1" target="_blank"><img src="res/iconmonstr.facebook.svg" alt="logo do Facebook"></a></div>
+							<div class="insta"><a href="https://www.instagram.com/rafaelsegatosouza/" target="_blank"><img src="res/iconmonstr.instagram.svg" alt="logo do Instagram"></a></div>
+							<div class="in"><a href="https://www.linkedin.com/in/rafaelsegatosouza/" target="_blank"><img src="res/iconmonstr.linkedin.svg" alt="logo do linkedin"></a></div>
+						</div>
+					</div>
 				</div>
+			</div>
+			<div class="contact col" id="contato">
+				<div class="title">entre em contato</div>
+				<div class="iflex row around max-width wrap">
+					<div class="info iflex col">
+						<img src="res/hipnoedu.logo.std.h.b.svg" />
+						<div class="text email t-center"><a href="mailto:contato@hipnoedu.com.br">contato@hipnoedu.com.br</a></div>
+						<div class="text t-center">(11) 95941-5861</div>
+						<div class="text social iflex row center">
+							<div class="item face"><a href="https://www.facebook.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.facebook.b.svg" alt="logo do Facebook"></a></div>
+							<div class="iteminsta"><a href="https://www.instagram.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.instagram.b.svg" alt="logo do Instagram"></a></div>
+							<div class="item in"><a href="https://www.linkedin.com/company/hipnoedu/" target="_blank"><img src="res/iconmonstr.linkedin.b.svg" alt="logo do linkedin"></a></div>
+						</div>
+						<br/>
+					</div>
+					<!--
+					<form>
+						<div class="form iflex col">
+							<input type="text" name="name" placeholder="Nome"><br>
+							<input type="text" name="telefone" placeholder="Telefone">
+							<input type="text" name="email" placeholder="E-mail">
+							<input type="text" name="message" placeholder="Mensagem">
+							<button type="submit">Enviar</button>
+						</div>
+					</form>
+				-->
+				</div>
+			</div>
+			<div class="localization iflex row center wrap">
+					<div class="title"> endereço:</div>
+					<div class="iflex col desc">
+							<div class="text">Av. Queiroz Filho, 1700</div>
+							<div class="text">Vila Hamburguesa</div>
+							<div class="text">Condomíno Villa Lobos Office Park</div>
+							<div class="text">Torre C - Life - Sala 8</div>
+							<div class="text">São Paulo - SP - 05319-000</div><br/>
+					</div>
+					
 			</div>
 		</div>
 		<div class="header">
@@ -130,16 +258,16 @@
 				<img src="res/hipnoedu.logo.std.h.ai.svg"/>
 			</div>
 			<div class="item right">
-				início
+				<a href="#inicio">início</a>
 			</div>
 			<div class="item right">
-				sobre
+				<a href="#sobre">sobre</a>
 			</div>
 			<div class="item right">
-				como funciona
+				<a href="#como">como funciona</a>
 			</div>
 			<div class="item right">
-				contato
+				<a href="#contato">contato</a>
 			</div>
 		</div>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -150,5 +278,14 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-130825691-1');
 		</script>-->
+		<script>
+			function toggle_testimonies() {
+				document.querySelector("#extra-testimonies").style.animation = "show 15s normal";
+				document.querySelector("#see-more").style.display = "none";
+				setTimeout(() => {
+					document.querySelector("#extra-testimonies").style.cssText = "max-height: 1000rem;";
+				}, 15000);
+			}
+		</script>
 	</body>
 </html>
