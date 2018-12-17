@@ -81,7 +81,7 @@ body {
     flex-grow: 1;
 }
 
-.header>.item>img {
+.header>.item img {
     height: var(--header-content);
 }
 
@@ -279,18 +279,22 @@ a {
 
 .how-it-works {
     background-color: #E6E6E8;
+    background-image: url("res/unsplash.paola_aguiar.reduced.jpg");
+    background-size: cover;
+    background-position: center;
     width: calc(100% - 6rem);
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
+    color: #FAFAFA;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 60rem) {
     .how-it-works {
-        width: calc(var(--max-width) - 6rem);
-        padding-left: calc(50% - var(--max-width) / 2 + 3rem);
-        padding-right: calc(50% - var(--max-width) / 2 + 3rem);
+        width: 54rem;
+        padding-left: calc(50% - 30rem + 3rem);
+        padding-right: calc(50% - 30rem + 3rem);
     }
 }
 
@@ -561,7 +565,7 @@ a {
 
 .contact {
     background-color: #1CEAE4;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 4rem 1rem 2rem 1rem;
     display: inline-flex;
 }
 
@@ -579,11 +583,51 @@ a {
 }
 
 .contact .item {
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .t-center {
     text-align: center;
+}
+
+.contact .info {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.contact .form {
+    display: flex;
+    align-content: flex-start;
+}
+
+.send-btn {
+    border: #FFE910 solid 1px;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFE910;
+    margin: 0.2rem 0rem 1rem 0rem;
+    width: 8rem;
+}
+
+.contact .form input,textarea {
+    padding: 0.5rem 1rem 0.3rem 0.4rem;
+    margin: 0rem 0rem 0.2rem 0rem;
+    border-radius: 1rem;
+    border: #AEAEAE solid 1px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.error {
+    color: #F23C37;
+}
+
+.success {
+    color: green;
+}
+
+.message {
+    height: 3em;
 }
 
 /* LOCALIZATION Section*/
