@@ -332,31 +332,82 @@ a {
 .challenges>.list {
     display: inline-flex;
     flex-direction: row;
-    max-width: var(--max-width);
-    flex-wrap: wrap;
-    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    /*justify-content: space-between;*/
+}
 
+@media (min-width: 1024px) {
+    .challenges>.list {
+        max-width: var(--max-width);
+    }
 }
 
 .challenges>.list>.elem {
-    background-color: #1CEAE4;
-    padding: 0.8rem 2rem 0.8rem 2rem;
-    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
-    height: 1.5rem;
+    background-color: #FAFAFA;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    margin: 0.2rem 0.5rem 0.2rem 0.5rem;
     text-align: center;
-    width: calc(25% - 4.4rem);
+    min-width: 12rem;
+    min-height: 18rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-@media (max-width: 767px) {
-    .challenges>.list>.elem {
-        width: calc(50% - 4.4rem);
-    }
+.challenges>.list>.elem>.title {
+    flex-grow: 1;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 0;
+    color: #FAFAFA;
+}
+
+.challenges>.list>.elem>.desc {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: left;
+    padding: 0;
+}
+
+.challenges>.list>.elem>.link {
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-style: italic;
+    text-align: right;
+    padding: 0rem 0.5rem 0rem 0rem;
 }
 
 .challenges>.footer {
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem 2rem 0rem 2rem;
+}
+
+#emotion-bloqueio {
+    background-image: url("res/unsplash.mikito.b.jpg");
+    background-size: cover;
+    color: #FAFAFA;
+}
+#emotion-ansiedade {
+    background-image: url("res/unsplash.anh.b.jpg");
+    background-size: cover;
+    color: #FAFAFA;
+}
+#emotion-autoconfiança {
+    background-image: url("res/unsplash.mohamed.b.jpg");
+    background-size: cover;
+    color: #FAFAFA;
+}
+#emotion-crenças {
+    background-image: url("res/unsplash.th.b.jpg");
+    background-size: cover;
+    color: #FAFAFA;
 }
 
 .yellow {

@@ -51,22 +51,31 @@
 					encontramos e tratamos a raíz da dificuldade
 				</div>
 				<div class="list">
-					<div class="elem"> Foco </div>
-					<div class="elem"> Concentração </div>
-					<div class="elem"> Criatividade </div>
-					<div class="elem"> Memorização </div>
-					<div class="elem"> Autoestima </div>
-					<div class="elem"> Autoconfiança </div>
-					<div class="elem"> Vícios </div>
-					<div class="elem"> Gagueira </div>
-					<div class="elem"> Estresse </div>
-					<div class="elem"> Dores Crônicas </div>
-					<div class="elem"> Insônia </div>
-					<div class="elem"> Alergia </div>
-					<div class="elem"> Pânico </div>
-					<div class="elem"> Ansiedade </div>
-					<div class="elem"> Medos </div>
-					<div class="elem"> Depressão </div>
+					<div class="elem" id="emotion-bloqueio">
+						<div class="title">Bloqueio Emocional</div>
+						<div class="desc">Você já se viu achando incapaz de assumir novos desafios na sua empresa? Ou mesmo de enfrentar uma área nova? E talvez de assumir um novo relacionamento?</div>
+						<div class="link">leia mais</div>
+					</div>
+					<div class="elem" id="emotion-ansiedade">
+						<div class="title">Ansiedade</div>
+						<div class="desc">A ansiedade faz com que as pessoas sofram em situações sem necessidade, ajam com impulsividade e tomem decisões irracionais, tentando depois lidar com as consequências.</div>
+						<div class="link">leia mais</div>
+					</div>
+					<div class="elem" id="emotion-autoconfiança">
+						<div class="title">Autoconfiança</div>
+						<div class="desc">O autoconhecimento é o segredo para se ter autoconfiança, pois assim você reconhece seus pontos fortes e melhora os pontos fracos, para alcançar seus objetivos.</div>
+						<div class="link">leia mais</div>
+					</div>
+					<div class="elem" id="emotion-crenças">
+						<div class="title">Crenças Limitantes</div>
+						<div class="desc">As crenças limitantes impedem as pessoas de dar o próximo passo para o sucesso. Desbloquear las permite encontrar os caminhos para a liberdade e a felicidade.</div>
+						<div class="link">leia mais</div>
+					</div>
+					<div class="elem">
+						<div class="title">tit</div>
+						<div class="desc">desc</div>
+						<div class="link">leia mais</div>
+					</div>					
 				</div>
 				<div class="footer">
 					Entre muitas outras dificuldades a desenvolver
@@ -214,7 +223,7 @@
 							<img src="res/hipnoedu.rafael.png" alt="Imagem do profissional Rafael Segato"/>
 						</div>
 						<div class="name">Rafael Segato</div>
-						<div class="description">Hipnoterapeuta formada pela OMNI Brasil.</div>
+						<div class="description">Hipnoterapeuta formado pela OMNI Brasil.</div>
 						<div class="social">
 							<div class="face"><a href="https://www.facebook.com/rafael.segatosouza.1" target="_blank"><img src="res/iconmonstr.facebook.svg" alt="logo do Facebook"></a></div>
 							<div class="insta"><a href="https://www.instagram.com/rafaelsegatosouza/" target="_blank"><img src="res/iconmonstr.instagram.svg" alt="logo do Instagram"></a></div>
@@ -238,13 +247,13 @@
 						</div>
 						<br/>
 					</div>
-					<form method="post">
+					<form method="post" action="/lead.php">
 						<div class="form iflex col">
 							<div class="error"></div>
 							<div class="success"></div>
-							<input type="text" name="name" placeholder="Nome" value=""/>
+							<input type="text" name="name" placeholder="Nome*" value=""/>
 							<input type="text" name="telefone" placeholder="Telefone" value=""/>
-							<input type="text" name="email" placeholder="E-mail" value=""/>
+							<input type="text" name="email" placeholder="E-mail*" value=""/>
 							<textarea type="text" name="message" placeholder="Mensagem" class="message"></textarea>
 							<button type="submit" class="send-btn" >Enviar</button>
 						</div>
