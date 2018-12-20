@@ -318,7 +318,7 @@ a {
     flex-direction: column;
     align-items: center;
 
-    padding-top: 3rem;
+    padding: 3rem 0rem 3rem 0rem;
 }
 
 .challenges>.title {
@@ -335,15 +335,16 @@ a {
     max-width: 100%;
     flex-wrap: nowrap;
     overflow: scroll;
-    overflow-x: scroll;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
     /*justify-content: space-between;*/
 }
 
+
 @media (min-width: 1024px) {
-    .challenges>.list {
-        max-width: var(--max-width);
+    .challenges {
+        padding: 3rem 2rem 3rem 2rem;
     }
 }
 
@@ -354,6 +355,8 @@ a {
     text-align: center;
     min-width: 12rem;
     min-height: 18rem;
+    width: 12rem;
+    height: 18rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -408,6 +411,16 @@ a {
     background-image: url("res/unsplash.th.b.jpg");
     background-size: cover;
     color: #FAFAFA;
+}
+
+#emotion-outras {
+    background-image: url("res/unsplash.stephen.jpg");
+    background-size: cover;
+    color: #000000;
+}
+
+#emotion-outras .title {
+    color: #000000;
 }
 
 .yellow {
@@ -697,4 +710,30 @@ a {
 .localization .desc {
     font-size: 1.2rem;
     line-height: 1.2;
+}
+
+/* SOCIAL Section */
+.social-sec {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2rem 0rem 3rem 0rem;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("res/institutocriativo.splash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FAFAFA;
+}
+
+.social-sec>.title {
+    color: #FAFAFA;
+    padding-bottom: 4rem;
+}
+
+.social-sec>.desc {
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    max-width: 30rem;
+    padding: 0rem 2rem 0rem 2rem;
 }
