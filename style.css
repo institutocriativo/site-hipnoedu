@@ -467,6 +467,12 @@ a {
     overflow: visible;
 }
 
+@media (max-width: 500px) {
+    .testimony>.list>.block {
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
 /* This may be new to beginners in css, check pseudo elements for more info*/
 
 .testimony>.list>.block>.text::before{
@@ -736,4 +742,5 @@ a {
     justify-self: center;
     max-width: 30rem;
     padding: 0rem 2rem 0rem 2rem;
+    font-size: 1.2rem;
 }
