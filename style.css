@@ -744,3 +744,17 @@ a {
     padding: 0rem 2rem 0rem 2rem;
     font-size: 1.2rem;
 }
+
+/*Whats top icon*/
+
+.topheader {
+    position: fixed;
+    top: 1.2rem;
+    right: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .topheader {
+        right: calc(100% / 2 - 512px + 2rem);
+    }
+}

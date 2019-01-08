@@ -303,6 +303,7 @@
 				<a href="#contato">contato</a>
 			</div>
 		</div>
+		<div class="topheader whats"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" target="_blank"><img src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130825691-1"></script>
 		<script>
