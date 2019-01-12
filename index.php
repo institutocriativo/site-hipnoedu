@@ -8,6 +8,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PJ5MD77');</script>
+		<!-- End Google Tag Manager -->
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
 		<meta name="keywords" content="hipnoterapia, hipnoterapia sp, hipnose, omni, terapia omni"/>
@@ -19,6 +26,10 @@
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MD77"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<div class="container" id="inicio">
 			<div class="splash">
 				<!--<img src="res/hipnoedu.splash.png" alt="Fotografia de uma moça sobre as rochas com um mar de fundo"/>-->
@@ -75,7 +86,7 @@
 					</div>
 					<div class="elem" id="emotion-crenças">
 						<div class="title">Crenças Limitantes</div>
-						<div class="desc">As crenças limitantes impedem as pessoas de dar o próximo passo para o sucesso. Desbloquear las permite encontrar os caminhos para a liberdade e a felicidade.</div>
+						<div class="desc">As crenças limitantes impedem as pessoas de dar o próximo passo para o sucesso. Superá-las permite encontrar os caminhos para a liberdade e a felicidade.</div>
 						<div class="link"><a href="/glossario.html#crencas">leia mais</a></div>
 					</div>
 					<div class="elem" id="emotion-outras">
@@ -305,13 +316,24 @@
 		</div>
 		<div class="topheader whats"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" target="_blank"><img src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130825691-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130825691-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'UA-130825691-1');
-		</script>-->
+		</script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116314414-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-116314414-1');
+		</script>
+
 		<script>
 			function toggle_testimonies() {
 				document.querySelector("#extra-testimonies").style.animation = "show 15s normal";
