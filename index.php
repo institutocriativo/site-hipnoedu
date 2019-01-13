@@ -8,14 +8,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-PJ5MD77');</script>
-		<!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJ5MD77');</script>
+<!-- End Google Tag Manager -->
 		<meta charset="utf-8"/>
+		<meta author="Vitor Silva"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
 		<meta name="keywords" content="hipnoterapia, hipnoterapia sp, hipnose, omni, terapia omni"/>
 		<meta name="description" content="O Hipnoedu é especializado em hipnoterapia avançada e, em parceria com o Instituto de Educação Criativa, visa o desenvolvimento pessoal a partir do conhecimento."/>
@@ -26,10 +27,10 @@
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 	<body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MD77"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MD77"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 		<div class="container" id="inicio">
 			<div class="splash">
 				<!--<img src="res/hipnoedu.splash.png" alt="Fotografia de uma moça sobre as rochas com um mar de fundo"/>-->
@@ -261,7 +262,7 @@
 					<div class="info iflex col">
 						<img src="res/hipnoedu.logo.std.h.b.svg" />
 						<div class="text email t-center"><a href="mailto:contato@hipnoedu.com.br">contato@hipnoedu.com.br</a></div>
-						<div class="text t-center"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=">(11) 95941-5861</a></div>
+						<div class="text t-center"><a href="/whats.html">(11) 95941-5861</a></div>
 						<div class="text social iflex row center">
 							<div class="item face"><a href="https://www.facebook.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.facebook.b.svg" alt="logo do Facebook"></a></div>
 							<div class="item insta"><a href="https://www.instagram.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.instagram.b.svg" alt="logo do Instagram"></a></div>
@@ -314,7 +315,7 @@
 				<a href="#contato">contato</a>
 			</div>
 		</div>
-		<div class="topheader whats"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" target="_blank"><img src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
+		<div class="topheader whats"><a class="tag_whats_link" href="/whats.html" target="_blank"><img src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130825691-1"></script>
 		<script>
