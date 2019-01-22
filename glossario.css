@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.dep-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1024px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+    .dep-container {
+        margin-left: calc(50% - 512px);
+    }
+}
+

@@ -54,7 +54,7 @@ body {
     left: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .header>.right {
         display: none;
     }

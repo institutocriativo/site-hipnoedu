@@ -1,0 +1,81 @@
+.flex {
+    display: flex;
+}
+
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.dep-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1024px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+    .dep-container {
+        margin-left: calc(50% - 512px);
+    }
+}
+
+.dep-testimony {
+    max-width: 30rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #dfdfdf 1px solid;
+    box-shadow: #898989 1px 3px 10px;
+}
+
+.dep-info {
+    padding-top: 0.5rem;
+}
+
+.dep-picture {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.dep-picture>img {
+    border: #000000 1px solid;
+    border-radius: 50px;
+}
+
+.dep-author {
+    display: flex;
+    flex-direction: row;
+}
+
+.dep-name {
+    color: #000000;
+}
+
+.dep-bio {
+    padding-left: 0.5rem;
+    color: #413f3f;
+}
+
+.dep-date {
+    color: #413f3f;
+}
+
+.dep-text {
+    padding: 1rem;
+}
