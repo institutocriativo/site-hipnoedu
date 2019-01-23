@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .flex {
     display: flex;
 }
@@ -18,18 +22,74 @@ body {
     background-color: #fafafa;
 }
 
-.dep-container {
+.glo-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 1024px;
+    padding: 1rem;
     margin-top: 4rem;
     flex-wrap: wrap;
 }
 
-@media (min-width: 1024px) {
-    .dep-container {
-        margin-left: calc(50% - 512px);
+.glo-postcard {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: #cfcfcf 1px solid;
+    height: 200vw;
+    background-color: #ffffff;
+    max-width: 25rem;
+}
+
+.glo-picture {
+    height: 100vw;
+    
+    border-bottom: #cfcfcf 1px solid;
+    margin: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.glo-picture-content {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.glo-content {
+    padding: 1rem;
+    max-height: calc(100vw - 4rem);
+}
+
+.glo-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.glo-text {
+    overflow-x: unset;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+}
+
+@media (min-width: 768px) {
+    .glo-postcard {
+        flex-direction: row;
+        height: 500px;
+        max-width: 768px;
+    }
+
+    .glo-picture {
+        height: calc(500px - 1rem);
+        width: calc(768px / 2 - 1rem);
+        border-right: #cfcfcf 1px solid;
+        margin: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .glo-content {
+        justify-content: space-between
     }
 }
 
