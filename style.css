@@ -16,6 +16,14 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("res/fonts/LemonMilk.ttf");
+    font-weight: normal;
+}
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -44,7 +52,7 @@ body {
     padding-bottom: 0.2rem;
 
     border-bottom: 1px solid #AEAEAE;
-    background-color: #FFFFFFF5;
+    background-color: rgb(255, 255, 255);
 
     height: var(--header-content);
 
@@ -463,7 +471,6 @@ a {
     align-content: center;
     flex-direction: column;
     min-width: 300px;
-    overflow-x: hidden;
     overflow: visible;
 }
 
@@ -757,4 +764,11 @@ a {
     .topheader {
         right: calc(100% / 2 - 512px + 2rem);
     }
+}
+
+/*All caps font */
+
+.lemon {
+    font-family: "Lemon Milk", Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
 }
