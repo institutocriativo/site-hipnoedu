@@ -218,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<img src="res/hipnoedu.logo.std.h.b.svg" />
 						<div class="text email t-center"><a href="mailto:contato@hipnoedu.com.br">contato@hipnoedu.com.br</a></div>
 						<div class="text t-center"><a href="/whats.html">(11) 95941-5861</a></div>
-						<div class="text t-center">(11) colocar o fixo aqui</div>
+						<div class="text t-center"><a href="tel:1125489616">(11) 2548-9616</a></div>
 						<div class="text social iflex row center">
 							<div class="item face"><a href="https://www.facebook.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.facebook.b.svg" alt="logo do Facebook"></a></div>
 							<div class="item insta"><a href="https://www.instagram.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.instagram.b.svg" alt="logo do Instagram"></a></div>
