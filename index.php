@@ -65,13 +65,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					O processo é divido em três fases: 
 				</div>
 				<div class="answer">
-					Na fase de <b>Avaliação</b>, você vai tirar todas as dúvidas sobre o tratamento e saber como acontece o processo da hipnoterapia. Experimenta o estado hipnótico e decide junto com o hipnoterapeuta qual a melhor forma de tratar seu problema de forma eficiente, eficaz e segura.
+					Na sessão de <b>Avaliação</b>, você recebe todas as informações de como o tratamento acontecerá por meio da hipnoterapia. Também passa por uma sessão de hipnoterapia para entender o processo e sentir-se seguro. E, então decide junto com o hipnoterapeuta qual a melhor forma de tratar seu problema de forma eficiente, eficaz e segura.
 				</div>
 				<div class="answer">
-					Na fase de <b>Terapia</b>, você em conjunto com o hipnoterapeuta descobrem a nível subconsciente o que precisa ser feito para a sua mente viver sem bloqueios e, o hipnoterapeuta realiza todas novas reprogramações fazendo você conhecer o seu novo eu e sendo o novo protagonista da sua vida.
+					Na sessão de <b>Terapia</b>, você ressignifica, a nível subconsciente, as causas emocionais que te levam a ter os sintomas que te impedem de ter seu sucesso pessoal, educacional, profissional e financeiro. Você passa a ter o controle de uma mente reprogramada para viver sem bloqueios, tornando-se protagonista da sua vida.
 				</div>
 				<div class="answer">
-					Na fase final de <b>Retorno</b>, você volta para potencializar todos os ganhos adquiridos na fase de terapia, fortalecendo a sua mente, deixando-a pronta e preparada para novos desafios.
+					Na sessão de <b>Acomanhamento</b> e no dia a dia, você potencializa os ganhos adquiridos na sessão de terapia, fortalecendo a sua mente, deixando-a pronta e preparada para novos desafios.
 				</div>
 			</div>
 			<div class="challenges">
