@@ -1,3 +1,7 @@
+:root {
+	--red: #E01D1D;
+}
+
 .dep-container {
 	width: 100%;
 	display: flex;
@@ -60,11 +64,12 @@ li {
 
 .course-detail-card {
 	background: red;
+	background: var(--red);
 	color: white;
 	min-height: 14rem;
 	width: calc(16rem - 2rem);
 	padding: 1rem;
-	margin-bottom: 1rem;
+	margin: 2rem 0rem 2rem 0rem;
 	border-radius: 0.5rem;
 	box-shadow: 0px 5px 10px #CCCCCC;
 	transform: scale(1,1);
@@ -119,6 +124,7 @@ li {
 
 h2 {
 	color: red;
+	color: var(--red);
 	margin-bottom: 0px;
 }
 
@@ -152,19 +158,49 @@ hr {
 }
 
 .course-payment {
-	align-itens: flex-end;
+	align-items: flex-start;
 	padding: 1rem;
 }
 
-.send-btn {
-	margin: 0rem;
-	font-weight: bold;
-	color: white;
-	background-color: red;
-	border: 1px solid #FF1111;
+h6 {
+	font-size: 1.2rem;
+	font-weight: normal;
+	margin: 2rem 0rem 0.6rem 0rem;
+	color: #444444;
+}
+
+.user-input {
+	height: 1.8rem;
 	border-radius: 0.3rem;
-	font-size: 1.4rem;
-	width: 5rem;
-	padding: 0.2rem 0.3rem 0.2rem 0.3rem;
-	text-align: center;
+	border: 1px solid #CCCCCC;
+	box-shadow: inset 0px 1px 2px #CCCCCC;
+	font-size: 0.8rem;
+	font-family: Raleway, sans-serif;
+	padding: 0.1rem 0.2rem 0.2rem 0.5rem;
+}
+
+.user-input.large {
+	min-width: 15rem;
+}
+
+.user-input.short {
+	width: 8rem; 
+}
+
+form div.radio {
+	margin-bottom: 0.5rem;
+}
+
+form .submit {
+	background: red;
+	background-color: var(--red);
+	color: white;
+	font-family: Raleway, sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.3rem;
+	margin-top: 2rem;
+	padding: 0.3rem 2rem 0.3rem 2rem;
+	-webkit-appearance: none;
 }

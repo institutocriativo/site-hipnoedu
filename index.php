@@ -45,7 +45,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					Oferecemos os serviços de hipnoterapia individual, hipnoterapia coletiva empresarial e hipnoterapia coletiva educacional: <br/><br/>
 					<b>Hipnoterapia individual</b> promove a reeducação da mente, para que a pessoa seja protagonista e tenha o controle de sua própria vida.<br/><br/>
 					<b>Hipnoterapia coletiva empresarial</b> promove o desbloqueio emocional que impede seus colaboradores de obterem melhores resultados e potencializarem suas competências e habilidades. <br/><br/>
-					<b>Hipnoterapia coletiva educacional</b> promove o desbloqueio emocional que impede os estudantes de terem facilidade no aprendizado com motivação, melhorando foco, memória e criatividade. 
+					<b>Hipnoterapia coletiva educacional</b> promove o desbloqueio emocional que impede os estudantes de terem facilidade no aprendizado com motivação, melhorando foco, memória e criatividade. <br/><br/>
+					Também oferecemos <b>treinamentos</b> para profissionais hipnoterapeutas que buscam ampliar suas técnicas ou fazer uma reclicagem.<br/><i><a href="treinamentos">Acesse a nossa página de treinamentos aqui.</a></i><br/><br/>
 				</div>
 			</div>
 			<div class="how-it-works" id="como">
