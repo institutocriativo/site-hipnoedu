@@ -219,7 +219,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					</ul>
 					<p>Ao fim do curso você receberá um certificado de conclusão e o acesso a um grupo de WhatsApp restrito para tirar dúvidas e compartilhar experiências.</p>
 					<div class="spacer"></div>
-					<h2>Requisitos</h2>
+					<h2>Requisito</h2>
 					<p>Para participar do curso é necessário que você seja um hipnoterapeuta <b>OMNI</b>.</p>
 					<div class="spacer"></div>
 					<h2>Instrutor</h2>
