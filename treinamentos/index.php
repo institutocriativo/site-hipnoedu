@@ -217,6 +217,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 						<li>- Aprimorando o Compounding e DDT</li>
 						<li>- Compreendendo e trabalhando com os vínculos emocionais aos pais e familiares</li>
 					</ul>
+					<p>Ao fim do curso você receberá um certificado de conclusão e o acesso a um grupo de WhatsApp restrito para tirar dúvidas e compartilhar experiências.</p>
+					<div class="spacer"></div>
+					<h2>Requisitos</h2>
+					<p>Para participar do curso é necessário que você seja um hipnoterapeuta <b>OMNI</b>.</p>
 					<div class="spacer"></div>
 					<h2>Instrutor</h2>
 						<img class="float right img-profile" src="res/kraisch.jpg" />
@@ -259,7 +263,7 @@ Trabalha em tempo integral como hipnoterapeuta e instrutor de hipnose, onde util
 								<img src="res/calendar.svg">4 de maio (sab)
 							</div>
 							<div class="hour">
-								<img src="res/alarm-clock.svg">9h às 20h
+								<img src="res/alarm-clock.svg">9h às 19h
 							</div>
 						</div>
 						<div class="date">
@@ -267,7 +271,7 @@ Trabalha em tempo integral como hipnoterapeuta e instrutor de hipnose, onde util
 								<img src="res/calendar.svg">5 de maio (dom)
 							</div>
 							<div class="hour">
-								<img src="res/alarm-clock.svg">9h às 18h
+								<img src="res/alarm-clock.svg">9h às 19h
 							</div>
 						</div>
 					</div>
