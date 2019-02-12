@@ -35,7 +35,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="splash">
 				<!--<img src="res/hipnoedu.splash.png" alt="Fotografia de uma moça sobre as rochas com um mar de fundo"/>-->
 				<div class="msg">reeduque sua mente e assuma <br/> o controle da sua vida</div>
-				<div class="btn"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" target="_blank">começe agora</a></div>
+				<div class="btn"><a class="tm-whats" target="_blank" href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" >começe agora</a></div>
 			</div>
 			<div class="about" id="servicos">
 				<div class="bubble lemon">
@@ -228,17 +228,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="info iflex col">
 						<img src="res/hipnoedu.logo.std.h.b.svg" />
 						<div class="text email t-center"><a href="mailto:contato@hipnoedu.com.br">contato@hipnoedu.com.br</a></div>
-						<div class="text t-center"><a href="/whats.html">(11) 95941-5861</a></div>
+						<div class="text t-center"><a class="tm-whats" target="_blank" href="/whats.html">(11) 95941-5861</a></div>
 						<div class="text t-center"><a href="tel:1125489616">(11) 2548-9616</a></div>
 						<div class="text social iflex row center">
 							<div class="item face"><a href="https://www.facebook.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.facebook.b.svg" alt="logo do Facebook"></a></div>
 							<div class="item insta"><a href="https://www.instagram.com/hipnoedu/" target="_blank"><img src="res/iconmonstr.instagram.b.svg" alt="logo do Instagram"></a></div>
-							<div class="item whats"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" target="_blank"><img src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
+							<div class="item whats"><a href="https://api.whatsapp.com/send?phone=5511959415861&text=Quero%20saber%20mais%20sobre%20a%20Hipnoterapia&source=&data=" target="_blank"><img class="tm-whats" src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
 							<div class="item in"><a href="https://www.linkedin.com/company/hipnoedu/" target="_blank"><img src="res/iconmonstr.linkedin.b.svg" alt="logo do linkedin"></a></div>
 						</div>
 						<br/>
 					</div>
-					<form method="post" action="/lead.php">
+					<form method="post" action="/lead.php" target="_blank">
 						<div class="form iflex col">
 							<div class="error"></div>
 							<div class="success"></div>
@@ -246,7 +246,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<input type="text" name="telefone" placeholder="Telefone" value=""/>
 							<input type="text" name="email" placeholder="E-mail*" value=""/>
 							<textarea type="text" name="message" placeholder="Mensagem" class="message"></textarea>
-							<button type="submit" class="send-btn" >Enviar</button>
+							<button type="submit" class="send-btn tm-lead" >Enviar</button>
 						</div>
 					</form>
 				</div>
@@ -281,7 +281,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<a href="#contato">contato</a>
 			</div>
 		</div>
-		<div class="topheader whats"><a class="tag_whats_link" href="/whats.html" target="_blank"><img src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
+		<div class="topheader whats"><a href="/whats.html" target="_blank" class=""><img class="tm-whats"  src="res/iconmonstr.whatsapp.b.svg" alt="logo do whatsapp"></a></div>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130825691-1"></script>
 		<script>
