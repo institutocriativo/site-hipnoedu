@@ -177,6 +177,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="target">Superação em resultados</div>
 							</div>
 						</a>
+                        <div class="block">
+                            <div class="text">
+                                <iframe id="ytplayer" type="text/html" width="280" height="180" src="https://www.youtube.com/embed/iuanXQ-69rc?" frameborder="0">
+                                </iframe>
+                            </div>
+                            <div class="footer">
+                                <div class="author">Adriana</div>
+                                <div class="target">Desbloqueio para o sucesso pessoal</div>
+                            </div>
+                        </div>
 						<div class="block">
 							<div class="text">Passei a ter mais <br/> foco e concentração que me levou a passar no <br/> vestibular e ter boa notas na faculdade.</div>
 							<div class="footer">
@@ -257,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="text">Av. Queiroz Filho, 1700</div>
 							<div class="text">Vila Hamburguesa</div>
 							<div class="text">Condomíno Villa Lobos Office Park</div>
-							<div class="text">Torre C - Life - Sala 8</div>
+							<div class="text">Vila 20</div>
 							<div class="text">São Paulo - SP - 05319-000</div><br/>
 					</div>
 			</div>
